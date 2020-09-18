@@ -19,9 +19,19 @@ singularity pull docker://<path_to_docker_container>
 for example:
 
 ```bash
-`singularity pull docker://poldracklab/pydeface:37-2e0c2d
+singularity pull docker://poldracklab/pydeface:37-2e0c2d
+```
+
+or, even better, wrapped in a `datalad run` command, e.g.,
+
+```bash
+datalad run -m "add singularity container for pydeface version 37-2e0c2d" "singularity pull docker://poldracklab/pydeface:37-2e0c2d"
 ```
 
 ## Maintainer
 
 - [Lennart Wittkuhn](mailto:wittkuhn@mpib-berlin.mpg.de)
+
+## License
+
+Since most data inside this repo consists of containers developed by third-parties, please refer to the license of each container individually.
