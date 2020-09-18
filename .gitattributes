@@ -3,3 +3,4 @@
 **/.git* annex.largefiles=nothing
 CHANGELOG.md annex.largefiles=nothing
 README.md annex.largefiles=nothing
+fmriprep/fs_600_license.txt annex.largefiles=nothing
